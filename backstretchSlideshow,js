@@ -1,0 +1,9 @@
+// jQuery backstretch for responsive background image slideshow
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+$.backstretch([
+      "https://dl.dropboxusercontent.com/u/25807530/Xfund/lab2.jpg",
+      "https://dl.dropboxusercontent.com/u/25807530/Xfund/original%20%284%29.jpg",
+      "https://dl.dropboxusercontent.com/u/25807530/Xfund/original%20%288%29.jpg",
+      "https://dl.dropboxusercontent.com/u/25807530/Xfund/original%20%2813%29.jpg",
+      "https://dl.dropboxusercontent.com/u/25807530/Xfund/Rocket_Laboratory_GPN-2000-000363.jpg"
+  ], {duration: 10000, fade: 750});

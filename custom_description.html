@@ -1,10 +1,12 @@
+<p>The informal record of experiments, findings, people, and news of the <a href="http://xfund.com">Experiment Fund</a>.</p>
+
 <!-- Begin MailChimp Signup Form -->
  <!--[if IE]>
  <style type="text/css" media="screen">
    #mc_embed_signup_top fieldset {position: relative;}
    #mc_embed_signup_top legend {position: absolute; top: -1em; left: .2em;}
  </style>
- <![endif]--> 
+ <![endif]-->
  <!--[if IE 7]>
  <style type="text/css" media="screen">
    .mc-field-group {overflow:visible;}
@@ -61,7 +63,7 @@
        </div>
        <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn submit minimal" style="clear: both;width: auto;display: block;margin: 1em 0 1em 5%;"></div>
        <div><input type="button" onClick="$.fancybox.close(); $('div.response').hide();" value="Close" id="mc-embedded-lightbox-close" class="btn minimal" style="clear: both;width: auto;display: block;margin: 1em 0 1em 5%; display:none;"></div>
-     </fieldset>  
+     </fieldset>
      <a href="#" id="mc_embed_close" class="mc_embed_close" style="display: none;">Close</a>
    </form>
    </div>
@@ -86,7 +88,7 @@
     if (!jqueryLoaded) {
         script.type= 'text/javascript';
         script.src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js';
-        head.appendChild(script);    
+        head.appendChild(script);
     }
     if (!fancyboxLoaded) {
       //Only load the CSS because the asynchronous JS might not load the script in time...
@@ -96,7 +98,7 @@
       fancystyle.setAttribute("type", "text/css");
       //TODO: Hey MC guys, you've gotta host this somewhere!
       fancystyle.setAttribute("href", "http://chimplr.heroku.com/js/fancybox/jquery.fancybox-1.3.4.css");
-      head.appendChild(fancystyle);    
+      head.appendChild(fancystyle);
     }
  </script>
  <script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
@@ -165,7 +167,7 @@
                                  });
                          });
                      return mce_validator.form();
-                 }, 
+                 },
                  success: mce_success_cb
              };
    $('#mc-embedded-subscribe-form').ajaxForm(options);
@@ -206,7 +208,7 @@
          try{
              if (index== -1){
                  $('#mce-'+resp.result+'-response').show();
-                 $('#mce-'+resp.result+'-response').html(msg);            
+                 $('#mce-'+resp.result+'-response').html(msg);
              } else {
                  err_id = 'mce_tmp_error_msg';
                  html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
@@ -277,3 +279,55 @@
  }
  </script>
  <!--End mc_embed_signup-->
+<script>
+$(".header-image").find("a").attr('href', 'http://www.xfund.com');
+</script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<script>
+$.backstretch([
+ "http://static.tumblr.com/v5pxusa/zhtmsjbwg/lab2.jpg",
+      "http://static.tumblr.com/v5pxusa/ziKmsjbz7/original__4_.jpg",
+      "http://static.tumblr.com/v5pxusa/i9imsjbzt/original__8_.jpg",
+      "http://static.tumblr.com/v5pxusa/Hl5msjc0e/original__13_.jpg",
+      "http://static.tumblr.com/v5pxusa/36amsjc14/rocket_laboratory_gpn-2000-000363.jpg"
+  ], {duration: 10000, fade: 750});
+</script>
+<!-- Begin MailChimp Signup Form -->
+  <style type='text/css'>
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    #mc_embed_signup form {display:block; position:relative; text-align:left; }
+    #mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+    #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+    #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+    #mc_embed_signup input:focus {border-color:#333;}
+    #mc_embed_signup .button {clear:both; background-color: #A51B2F; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+    #mc_embed_signup .small-meta {font-size: 11px;}
+    #mc_embed_signup .nowrap {white-space:nowrap;}
+    #mc_embed_signup .clear {clear:none; display:inline;}
+
+    #mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+    #mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; min-width:130px; width: 100%;}
+    #mc_embed_signup input.button {display:block; margin:0 0 10px 0; width: 101%; min-width:90px;}
+
+    #mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+    #mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+    #mc_embed_signup #mce-error-response {display:none;}
+    #mc_embed_signup #mce-success-response {color:#529214; display:none;}
+    #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+  </style>
+<hr>
+<div id='mc_embed_signup'>
+  <form action='http://xfund.us7.list-manage.com/subscribe/post?u=0d7d773dee0353218380c4c2f&id=bc9a44ab4b' method='post' id='mc-embedded-subscribe-form' name='mc-embedded-subscribe-form' class='validate' target='_blank' novalidate>
+  <label for='mce-EMAIL'><h2>Read the Experiment Briefing</h2></label>
+  <p>Our fortnightly community newsletter featuring the Expert Column, Method Profile, Events, Jobs and News.</p>
+  <input type='email' value='' name='EMAIL' class='email' id='mce-EMAIL' placeholder='email address' required>
+    <div class='clear'>
+      <input type='submit' value='Subscribe' name='subscribe' id='mc-embedded-subscribe' class='button'>
+    </div>
+  </form>
+</div>
+<!--End mc_embed_signup-->
+<hr>
+<h2>Experiment Guide</h2>
+<p>Bi-annual selection of entrepreneurial courses at Harvard and MIT.<br><a href="http://blog.xfund.com/post/60279635955/the-experiment-guide-to-harvard-mit-courses"><b>Fall 2013</b></a></p>

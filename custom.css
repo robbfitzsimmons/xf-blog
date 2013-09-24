@@ -6,6 +6,7 @@ letter-spacing: 1px;
 article.text p {
 font-size: 18px;
 font-weight: 400;
+text-align: justify;
 }
 article.footer a{
 font-weight: 200;
@@ -19,11 +20,12 @@ width: 50%;
 padding-bottom: 1px;
 margin-bottom: 1px;
 }
-
 aside h2 {
   font-size: 16px;
 }
-
 aside a {
   color: #A51B2F;
+}
+aside p {
+text-align: justify;
 }

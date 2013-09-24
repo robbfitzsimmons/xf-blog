@@ -1,0 +1,135 @@
+/* Variables */
+.redBorder {
+  border-bottom: 5px solid #B74959;
+}
+/* Styles */
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.endr {
+  margin-right: 0!important;
+  border-right: 0!important;
+}
+.clear {
+  clear: both;
+}
+.center {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Header */
+#header-frame {
+  margin-bottom: 80px;
+}
+
+#header {
+  z-index: 888;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #dfdbdc;
+  background: url('http://xfund.com/images/site/header-bg.png') repeat;
+  height: 100px;
+  border-bottom: 5px solid #B74959;
+}
+#header .container {
+  display: block;
+  position: relative;
+  top: 0px;
+  z-index: -1;
+}
+#header #header .row {
+  position: absolute;
+}
+#header h1 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -78px;
+  width: 153px;
+}
+#header h1 a {
+  float: none!important;
+  margin-top: 0!important;
+  padding-top: 0!important;
+  width: 153px!important;
+}
+#header a {
+  float: left;
+  display: block;
+  margin-top: 15px;
+  padding: 38px 0 15px 0;
+  font: 16px/18px 'omnes-pro', Verdana, sans-serif;
+  color: #332F2F;
+  text-align: center;
+  text-transform: uppercase;
+}
+#header li.current a {
+  color: #B74959;
+}
+#header a:hover {
+  color: #B74959;
+}
+#header a.method {
+  background: url('http://xfund.com/images/site/icon_method.png') 50% 0 no-repeat;
+}
+#header a.people {
+  background: url('http://xfund.com/images/site/icon_people.png') 50% 0 no-repeat;
+}
+#header a.partners {
+  background: url('/images/site/icon_partners.png') 50% 0 no-repeat;
+}
+#header a.projects {
+  background: url('http://xfund.com/images/site/icon_projects.png') 50% 0 no-repeat;
+}
+#header a.library {
+  background: url('/images/site/icon_library.png') 50% 0 no-repeat;
+}
+#header a.contact {
+  background: url('http://xfund.com/images/site/icon_blog.png') 50% 0 no-repeat;
+}
+#header a.press {
+  background: url('/images/site/icon_press.png') 50% 0 no-repeat;
+}
+#header a.resources {
+  background: url('http://xfund.com/images/site/icon_resources.png') 50% 0 no-repeat;
+}
+#header a.blog {
+  background: url('http://xfund.com/images/site/icon_blog.png') 50% 0 no-repeat;
+}
+#header .row.large a {
+  width: 33%;
+}
+#header .row.small {
+  display: none;
+}
+#header .row.small a {
+  width: 16%;
+}
+#header .row.redBar {
+  display: none;
+  padding: 6px 0;
+  height: 25px;
+  background-color: #a51c30;
+  background-color: rgba(165, 28, 48, 0.8);
+  text-align: center;
+}
+#header .row.redBar a {
+  float: none!important;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin: 0 0 0 -87px;
+  padding: 0;
+  width: 175px;
+  height: 25px;
+}

@@ -1,18 +1,26 @@
+#mc_embed_signup input.email {
+width: 98% !important;
+}
+
+#mc_embed_signup input.button {
+width: 99% !important;
+background-color: #A51B2F !important;
+}
+
 article.text h2 a {
 color: #A51B2F;
-font-weight: 100;
+font-weight: 200;
+letter-spacing: 1px;
 }
-
 article.text p {
 font-size: 18px;
-font-weight: 200;
+font-weight: 400;
+text-align: justify;
 }
-
 article.footer a{
 font-weight: 200;
 font-family: "omnes-pro", sans-serif;
 }
-
 aside nav.pages li {
 text-transform: uppercase;
 display: inline-block;
@@ -21,16 +29,12 @@ width: 50%;
 padding-bottom: 1px;
 margin-bottom: 1px;
 }
-
-#mc_embed_signup form {
-padding: 10px 0 10px 30px !important;
+aside h2 {
+  font-size: 16px;
 }
-
-#mc_embed_signup input.email {
-width: 85% !important;
+aside a {
+  color: #A51B2F;
 }
-
-#mc_embed_signup input.button {
-width: 86% !important;
-background-color: #A51B2F !important;
+aside p {
+text-align: justify;
 }

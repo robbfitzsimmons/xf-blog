@@ -3,10 +3,10 @@ Nova - 1.1.0 ~ http://novatheme.tumblr.com/theme-version
 Premium Tumblr Theme
 http://novatheme.tumblr.com | @novatheme
 Author: Jonathan Moore - http://jonathanmoore.com | nova@newezra.com | @newezra
-    _   __                ______                
+    _   __                ______
    / | / /__ _      __   / ____/___  _________ _
   /  |/ / _ \ | /| / /  / __/ /_  / / ___/ __ `/
- / /|  /  __/ |/ |/ /  / /___  / /_/ /  / /_/ / 
+ / /|  /  __/ |/ |/ /  / /___  / /_/ /  / /_/ /
 /_/ |_/\___/|__/|__/  /_____/ /___/_/   \__,_/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*******************************************************************************************************
@@ -15,7 +15,7 @@ Author: Jonathan Moore - http://jonathanmoore.com | nova@newezra.com | @newezra
 body {
   background: #000 url(http://static.tumblr.com/fftf9xi/M0ml81fbw/body_bg.jpg);
   color: #1b1b1b;
-  font: normal 12px/22px 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font: normal 12px/22px 'proxima-nova', sans-serif;
   margin: 0;
   padding: 0;
   border-left: 6px solid #000;
@@ -45,7 +45,7 @@ img::-moz-selection {background: transparent;}
   html {-webkit-text-size-adjust: none}
   a {-webkit-tap-highlight-color: rgba(200,0,0,0.4);}
 }
-@media only screen and (min-device-width: 481px) and (max-device-width: 799px) { 
+@media only screen and (min-device-width: 481px) and (max-device-width: 799px) {
   body { min-width: 1200px; }
   html {-webkit-text-size-adjust: none}
   a {-webkit-tap-highlight-color: rgba(200,0,0,0.4);}
@@ -145,11 +145,11 @@ article section {
   2.a - General Post Styling
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 article h2 {
-  font: 36px/36px 'NovaMisoBold', Arial, sans-serif;
+  font: 36px/36px 'proxima-nova', Arial, sans-serif;
   margin-bottom: 10px;
 }
 article.photo p:first-child b:first-child, article p:first-child strong:first-child {
-  font: 36px/36px 'NovaMisoBold', Arial, sans-serif;
+  font: 36px/36px 'proxima-nova', Arial, sans-serif;
   margin-top: 6px;
 }
 article header a, article section a, aside .base a {
@@ -243,7 +243,7 @@ body.light article.link .post-type a {
   background-position: -120px -30px;
 }
 article.link header p {
-  font: 30px/40px 'NovaMisoBold', Arial, sans-serif;
+  font: 30px/40px 'proxima-nova', Arial, sans-serif;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   2.f - Chat Post
@@ -263,7 +263,7 @@ article.chat dl {
   list-style: none;
 }
 article.chat dt {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   font-weight: normal;
@@ -363,7 +363,7 @@ article.ask h3 {
   margin-top: 12px;
 }
 article.ask .question-asker {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #666666;
@@ -414,7 +414,7 @@ body.light .post-type a:hover {
   display: inline-block;
   background: #f1f1f1 url(http://static.tumblr.com/fftf9xi/OE9l81fdh/article_nav_bg.png) top right repeat-y;
   width: auto;
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #666666;
@@ -434,7 +434,7 @@ body.light .post-tags li a {
 }
 .author-block {
   margin: 0 20px;
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #666666;
@@ -461,7 +461,7 @@ body.light .post-tags li a {
   color: #0490e1;
 }
 .reblog-block, .source-block {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #666666;
@@ -492,7 +492,7 @@ body.light article footer {
   background: #fff url(http://static.tumblr.com/fftf9xi/iaEl81ff6/article_footer_bg-light.png) top left repeat-x;
 }
 article footer .tumblr-bar, article footer .share-bar, article footer .tag-bar {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #666666;
@@ -580,7 +580,7 @@ article footer .share-bar-shorturl input {
   width: 104px;
 }
 article footer .share-bar-shorturl span {
-  
+
 }
 article footer .share-bar-buttons {
 
@@ -604,7 +604,7 @@ article .perma-footer a {
   color: #0490e1;
 }
 article .perma-footer h3.meta-title {
-  font: 12px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 12px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   font-weight: normal;
@@ -629,7 +629,7 @@ body.light article .perma-footer .notes-block ol li {
   background: #f9f9f9;
 }
 article .perma-footer .notes-block ol li .action {
-  
+
 }
 article .perma-footer .notes-block ol li .avatar {
   display: block;
@@ -668,7 +668,7 @@ body.light .date {
   top: 0;
 }
 .date h3 {
-  font: 10px/12px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/12px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   font-weight: normal;
@@ -682,7 +682,7 @@ body.light .date h3 a {
   color: #8f8f8f;
 }
 .date h3 strong {
-  font: 34px/34px 'NovaMisoBold', Arial, sans-serif;
+  font: 34px/34px 'proxima-nova', Arial, sans-serif;
   color: #dee104;
   font-weight: normal;
 }
@@ -694,7 +694,7 @@ body.light .date h3 a {
   padding: 20px 20px;
   background: #000;
   margin-bottom: 40px;
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #666666;
@@ -766,7 +766,7 @@ aside section .base {
   word-wrap: break-word;
 }
 aside section footer {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #666666;
@@ -817,7 +817,7 @@ aside .header-image {
   background: transparent;
 }
 aside .info .search_text {
-  font: 10px/10px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/10px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #8f8f8f;
@@ -841,7 +841,7 @@ aside .description .portrait {
   border-bottom: 1px solid #dadada;
 }
 aside h1 {
-  font: 30px/40px 'NovaMisoBold', Arial, sans-serif;
+  font: 30px/40px 'proxima-nova', Arial, sans-serif;
 }
 aside h1 a {
   color: #1b1b1b !important;
@@ -854,7 +854,7 @@ aside .description, aside nav.pages, aside nav.social {
   padding: 0 10px;
 }
 aside h4 {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   font-weight: normal;
@@ -1010,7 +1010,7 @@ aside .liked li p {
 }
 aside .liked li .post-info-bottom {
   display: block;
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   font-style: normal;
   letter-spacing: .06em;
@@ -1041,7 +1041,7 @@ aside .twitter li p {
   line-height: 20px;
 }
 aside .twitter li p em {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   font-style: normal;
   letter-spacing: .06em;
@@ -1088,7 +1088,7 @@ aside footer li.icon-liked a {
   text-shadow: none;
 }
 #footer_main h4 {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   font-weight: normal;
@@ -1136,7 +1136,7 @@ body.light #footer_main .liked li {
   color: #fff;
 }
 #footer_main .liked li p em, #footer_main .liked li p em a {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   font-style: normal;
   letter-spacing: .06em;
@@ -1150,7 +1150,7 @@ body.light #footer_main .liked {
 #footer_main .liked footer li.icon-liked a {
   background: url(http://static.tumblr.com/fftf9xi/ptVl81gmw/meta_icon_twitter-dark.png) 0 2px no-repeat;
   padding-left: 20px;
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #dee104;
@@ -1208,7 +1208,7 @@ body.light #footer_main .twitter li {
   color: #fff;
 }
 #footer_main .twitter li p em, #footer_main .twitter li p em a {
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   font-style: normal;
   letter-spacing: .06em;
@@ -1222,7 +1222,7 @@ body.light #footer_main .twitter {
 #footer_main .twitter footer li.icon-twitter a {
   background: url(http://static.tumblr.com/fftf9xi/ptVl81gmw/meta_icon_twitter-dark.png) 0 2px no-repeat;
   padding-left: 20px;
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #dee104;
@@ -1278,7 +1278,7 @@ body.hd #footer_main .follows ul li:nth-child(14n+14) {
   margin-right: 12px;
 }
 #footer_main .search_footer_text {
-  font: 10px/10px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/10px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #444;
@@ -1341,7 +1341,7 @@ body.light #footer_main #copyright a {
   margin-bottom: -60px;
   padding: 20px 20px 0 20px;
   height: 40px;
-  font: 10px/20px 'NovaDroidSansBold', Arial, sans-serif;
+  font: 10px/20px 'proxima-nova', Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: #666666;
@@ -1382,7 +1382,7 @@ iframe[src*="assets.pinterest.com/pidget.html"] {
 .cboxPhoto{float:left; margin:auto; border:0; display:block;}
 .cboxIframe{width:100%; height:100%; display:block; border:0;}
 
-/* 
+/*
     User Style:
     Change the following styles to modify the appearance of ColorBox.  They are
     ordered & tabbed in a way that represents the nesting of the generated HTML.
